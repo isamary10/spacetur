@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
     <title>Contato</title>
 </head>
 <body>
-    <form action="./index.html" method="GET">
+    <form action="./index.html" method="">
         <fieldset>
             <legend>Contato</legend>
             <div>
@@ -25,7 +26,7 @@
             <div>
                 <label for="m">Masculino</label>
                 <input type="radio" name="genero" id="m" value="Masculino">
-                
+
                 <label for="f">Feminino</label>
                 <input type="radio" name="genero" id="f" value="Feminino">
 
@@ -38,13 +39,12 @@
             </div>
             <div>
                 <label for="motivacao">Qual a sua motivação para a viagem?</label>
-                <textarea name="" id="motivacao" cols="30" rows="10"></textarea>
+                <textarea name="motivacao" id="motivacao" cols="30" rows="10"></textarea>
             </div>
             <div>
-                <input type="submit" value="Enviar">
+                <input type="button" value="Enviar" id="btnEnviar" onclick="verificar()">
             </div>
-        </fieldset> 
+        </fieldset>
     </form>
-    
 </body>
 </html>
