@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contato.css">
     <script src="./js/script.js" defer></script>
     <title>Contato</title>
 </head>
@@ -11,19 +12,19 @@
     <form action="./index.html" method="">
         <fieldset>
             <legend>Contato</legend>
-            <div>
+            <div class="formInput">
                 <label for="nmSobrenomeId">Nome e Sobrenome:</label>
                 <input type="text" name="nmSobrenome" id="nmSobrenomeId" placeholder="Nome e sobrenome">
             </div>
-            <div>
+            <div class="formInput">
                 <label for="emailId">E-mail:</label>
                 <input type="email" name="email" id="emailId" placeholder="email@dominio.com">
             </div>
-            <div>
+            <div class="formInput">
                 <label for="cpfId">CPF:</label>
                 <input type="text" name="cpf" id="cpfId" placeholder="(xxx.xxx.xxx-xx)">
             </div>
-            <div>
+            <div class="genero formInput">
                 <label for="m">Masculino</label>
                 <input type="radio" name="genero" id="m" value="Masculino">
 
@@ -33,15 +34,15 @@
                 <label for="o">Outros</label>
                 <input type="radio" name="genero" id="o" value="Outros"> 
             </div>
-            <div>
+            <div class="formInput">
                 <label for="dataNascimentoId">Data de nascimento:</label>
                 <input type="date" name="dataNascimento" id="dataNascimentoId">
             </div>
-            <div>
+            <div class="formInput">
                 <label for="motivacao">Qual a sua motivação para a viagem?</label>
                 <textarea name="motivacao" id="motivacao" cols="30" rows="10"></textarea>
             </div>
-            <div>
+            <div class="formInput">
                 <input type="button" value="Enviar" id="btnEnviar" onclick="verificar()">
             </div>
         </fieldset>

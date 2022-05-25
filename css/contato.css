@@ -1,0 +1,32 @@
+body {
+    background-image: url(../img/espaco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form {
+    margin: 0 35%;
+    background-color: #daeaf691;
+}
+
+fieldset {
+    border-style: none;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+legend {
+    text-align: center;
+}
+input {
+    width: 100%;
+    margin: 0;
+}
+
+.formInput {
+    margin: 1rem 20%;
+}
+
+.genero {
+    display: flex;
+    ;
+}
