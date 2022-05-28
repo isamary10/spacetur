@@ -5,17 +5,19 @@ body {
     background-position: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
 }
+
 form {
-    margin: 3rem 35%;
+    width: 45%;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
-   
 }
+
 fieldset {
     background-color: #04162d;
     border-style: none;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.35);
-    
 }
+
 legend {
     text-align: center;
     font-weight: bold;
@@ -28,31 +30,33 @@ legend {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
 input {
     width: 100%;
     margin: 0;
     border-radius: 5px;
     padding: 10px;
-    
 }
+
 input[type=date], input[type=text],input[type=tel],input[type=email] {
     margin-top: .4rem;
-    
 }
+
 .formInput textarea {
     margin-top: .4rem;
-    
+    width: 107%;
 }
+
 .formInput {
     margin: 1rem 20%;
     color: #ffffff;
     font-size: 15px;
-    
 }
+
 .genero {
     display: flex;
-    
 }
+
 .btnEnviar {
     width: 8rem;
     font-weight: bold;
@@ -62,7 +66,9 @@ input[type=date], input[type=text],input[type=tel],input[type=email] {
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.35);
     background-color: #2255a794;
     color: #ffffff;
+    border-style: none;
 }
+
 .btnEnviar:hover, .btnEnviar:focus {
     background-color: #6da6da;
     transition: .4s;
