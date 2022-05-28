@@ -19,7 +19,7 @@ p{
 }
 
 a:hover{
-    text-decoration: underline;    
+    text-decoration: underline;
 }
 
 img{
@@ -29,7 +29,7 @@ img{
 .cabecalho{
     width: 100%;
     height: 48px;
-    margin: 40px 0;   
+    margin: 40px 0;
 }
 
 .logo{
@@ -93,8 +93,4 @@ img{
 
 .rodape small{
     font-size: 18px;
-}
-
-.rodape a{
-font-size: 1%;
 }
