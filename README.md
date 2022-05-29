@@ -1,29 +1,33 @@
-# spacetur
-O projeto se baseia em uma página que trata de turismo espacial. As pessoas poderão viajar até o espaço e ter uma visão da terra.
+# ✨SPACETUR✨
 
-1TDS
-CP3 – CSS3 / HTML5 / JAVASCRIPT 
-CHECKPOINT 3-2022
+## O projeto se baseia em uma página que trata de turismo espacial. As pessoas poderão viajar até o espaço e ter uma visão da terra. </p>
 
-Regras:
-• O CP3será realizado off-line, para entrega.
-• A avaliação será realizada em grupo (obrigatório o grupo do challenger).
-• Todos os integrantes devem contribuir.
-• Não é permitido utilizar frameworks (frameworkssão qualquer biblioteca adicionada ao projeto que agregue algum tipo de característica já pronta)
-Obs.: Bibliotecas de ícones e fontes estão liberadas.
+## _GrupoC_
 
-Objetivo:
-• Criar um mini projeto sobre TURISMO ESPACIAL.
-• Criar um repositório no github de nome spacetur, adicione um arquivo readme e coloque estas instruções no arquivo.
-• Clone o repositório.
-• O projeto deve ser do tipo HTML5/CSS3/JAVASCRIPT.
-• Crie um arquivo index.html.
-• Crie um arquivo css chamado estilo.css.
-• Crie um arquivo js chamado script.js.
-• O projeto se baseia em uma página que trata de turismo espacial, bem no estilo Elon Musk de ser. As pessoas poderão viajar até o espaço e ter uma visão da terra.
-• A página tem uma função de orientação e de captação de usuários.
-• Então além do visual agradávela página de possuir um formulário para cadastrar usuários que estejam inclinados a realizar o tour.
-• As informações que devem ser captadas são: 
+### 1TDS
+
+### CP3 – CSS3 / HTML5 / JAVASCRIPT
+### CHECKPOINT 3-2022
+
+## ✨REGRAS✨
+- O CP3será realizado off-line, para entrega.
+- A avaliação será realizada em grupo (obrigatório o grupo do challenger).
+- Todos os integrantes devem contribuir.
+- Não é permitido utilizar frameworks (frameworkssão qualquer biblioteca adicionada ao projeto que agregue algum tipo de característica já pronta)
+- Obs.: Bibliotecas de ícones e fontes estão liberadas.
+
+## ✨OBJETIVO✨
+- Criar um mini projeto sobre TURISMO ESPACIAL.
+- Criar um repositório no github de nome spacetur, adicione um arquivo readme e coloque estas instruções no arquivo.
+- Clone o repositório.
+- O projeto deve ser do tipo HTML5/CSS3/JAVASCRIPT.
+- Crie um arquivo index.html.
+- Crie um arquivo css chamado estilo.css.
+- Crie um arquivo js chamado script.js.
+- O projeto se baseia em uma página que trata de turismo espacial, bem no estilo Elon Musk de ser. As pessoas poderão viajar até o espaço e ter uma visão da terra.
+- A página tem uma função de orientação e de captação de usuários.
+- Então além do visual agradávela página de possuir um formulário para cadastrar usuários que estejam inclinados a realizar o tour.
+- As informações que devem ser captadas são: 
     - nome e sobrenome 
     - email
     - cpf
@@ -33,51 +37,50 @@ Objetivo:
     - O formulário não pode ser submetido com nenhum campo vazio.
     - Cada campo deve ser criado com seu tipo específico de dado.
     - Ao ser submetidas as informações, estando tudo ok uma mensagem de alerta deve ser emitida informando que os dados foram cadastrados com sucesso e a navegação deve ser direcionada para a página inicial (isso se consegue colocando a página de destino no action)
-• O formulário deve ser acessado através de um item de menu chamado [“Contato”].
-• O seu dever é criar a página e chegar em um resultado próximo ou igual ao da imagem abaixo.
+- O formulário deve ser acessado através de um item de menu chamado [“Contato”].
+- O seu dever é criar a página e chegar em um resultado próximo ou igual ao da imagem abaixo.
 
-Critérios:
-• Criação do projeto com arquivos. (5Pontos)
-• Aplicação de boas práticas. (nomenclatura de arquivos, estrutura html e css, semântica). (15 Pontos)
-• Estrutura HTML. (25 Pontos)
-• Estilização CSS3. (25 Pontos)
-• Controle com Javascript. (30Pontos)
+## ✨CRITÉRIOS✨
+- Criação do projeto com arquivos. (5Pontos)
+- Aplicação de boas práticas. (nomenclatura de arquivos, estrutura html e css, semântica). (15 Pontos)
+- Estrutura HTML. (25 Pontos)
+- Estilização CSS3. (25 Pontos)
+- Controle com Javascript. (30Pontos)
 
-Estrutura
+## ✨ESTRUTURA✨
 ● Container: 
-    Definir uma <div> como container principal. Determine esse elemento como classe ou id de nome “container” (*) para esse elemento. Este deve conter todos os outros elementos.
+- Definir uma <div> como container principal. Determine esse elemento como classe ou id de nome “container” (*) para esse elemento. Este deve conter todos os outros elementos.
 
-● Layout: 
-    O layout deve ser dividido em 3(três) áreas. 
-    - Cabeçalho (Determine a classe “cabecalho” (*) para o <header>).
-    - Banner (Determine a classe “banner” (*) para o <section>).
-    - Rodapé(Determine a classe “rodape”(*)para o <footer>).
+● Layout:
+- O layout deve ser dividido em 3(três) áreas. 
+- Cabeçalho (Determine a classe “cabecalho” (*) para o <header>).
+- Banner (Determine a classe “banner” (*) para o <section>).
+- Rodapé(Determine a classe “rodape”(*)para o <footer>).
 
 ● CABEÇALHO:
-    Deve ser adicionada uma imagem (logo-spacetours.png) e identificada com a classe “logo”. Adicione um elemento semântico e identifique este com a classe de “menu”, coloque uma lista com os seguintes itens dentro deste elemento:
-    - Home
-    - Sobre
-    - Pacotes
-    - Contato
-    Cada item deve ser um hyperlink para (#).
+- Deve ser adicionada uma imagem (logo-spacetours.png) e identificada com a classe “logo”. Adicione um elemento semântico e identifique este com a classe de “menu”, coloque uma lista com os seguintes itens dentro deste elemento:
+- Home
+- Sobre
+- Pacotes
+- Contato
+- Cada item deve ser um hyperlink para (#).
 
 ● BANNER:
-    Neste elemento deve ser criada uma imagem (banner.jpg). Abaixo dessa imagem devemos criar uma <div> e identificar esta com a classe “box”, ela deve conter um <h1>, um <p> e um <a> respectivamente: 
-    <h1> = “TERRA: SUA LINDA!” 
-    <p>  = “Experimente a mudança de paradigma de conhecer o nosso planeta azul de um novo ponto de vista.”
-    <a>  = “Leia depoimentos.” (O hyperlink deve apontar para (#) )
+- Neste elemento deve ser criada uma imagem (banner.jpg). Abaixo dessa imagem devemos criar uma <div> e identificar esta com a classe “box”, ela deve conter um <h1>, um <p> e um <a> respectivamente: 
+- <h1> = “TERRA: SUA LINDA!” 
+- <p>  = “Experimente a mudança de paradigma de conhecer o nosso planeta azul de um novo ponto de vista.”
+- <a>  = “Leia depoimentos.” (O hyperlink deve apontar para (#) )
 
 ● RODAPÉ:
-    Para o rodapé nós vamos ter um <p>, um <smmall> e um <a> com os respectivos textos onde o small tag deve ter a classe “creditos”.
-    <p> = “2021.Design Responsivo.”
-    A palavra “Criado por SEU NOME” deve estar entre uma <small> e o nome Alexandre Carlos deve estar entre um <a> onde o hyperlink deve apontar para (#).
+- Para o rodapé nós vamos ter um <p>, um <smmall> e um <a> com os respectivos textos onde o small tag deve ter a classe “creditos”.
+- <p> = “2021.Design Responsivo.”
+- A palavra “Criado por SEU NOME” deve estar entre uma <small> e o nome Alexandre Carlos deve estar entre um <a> onde o hyperlink deve apontar para (#).
 
-APRESENTAÇÃO
-Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css
+## ✨APRESENTAÇÃO✨
+### _Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css_
 
 ● Faça o apontamento do arquivo css no HTML.
 ● Para o body determine os seguintes estilos:
-
 | Tamanho do texto em 12px .
 | Familia da fonte -Helvetica Neue, Helvetica, Arialousem serifa.
 | Cor do texto #444
@@ -143,12 +146,12 @@ Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css
 ● Para os hyperlinks descendentes da classe footer determine os seguintes estilos:
 | Tamanho do texto em 1
 
-COMPORTAMENTO
-Todo o trabalho aqui deve ser realizado no arquivo de scripts externo script.js
+## ✨COMPORTAMENTO✨
+### _Todo o trabalho aqui deve ser realizado no arquivo de scripts externo script.js_
 
 ● A função principal do Javascript é controlar o formulário, podendo se estender a outros comportamentos da página.
 ● Controlar o envio de dados do formulário, ou seja, quando usuário submeter os dados, realizar a verificação dos campos.
 
-OBS: Deve ser dada permissão ao usuário alecarlosjesus a esse repositório.
+- OBS: Deve ser dada permissão ao usuário alecarlosjesus a esse repositório.
 
 ● Compactar o repositório do projeto juntamente com um arquivo txt com o nome do grupo e nome de cada integrante e rm e submeter para o TEAMs.
