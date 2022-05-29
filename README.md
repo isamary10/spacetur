@@ -63,9 +63,9 @@ Estrutura
 
 ● BANNER:
     Neste elemento deve ser criada uma imagem (banner.jpg). Abaixo dessa imagem devemos criar uma <div> e identificar esta com a classe “box”, ela deve conter um <h1>, um <p> e um <a> respectivamente: 
-    <h1> = “TERRA: SUA LINDA!” 
-    <p>  = “Experimente a mudança de paradigma de conhecer o nosso planeta azul de um novo ponto de vista.”
-    <a>  = “Leia depoimentos.” (O hyperlink deve apontar para (#) )
+    "<h1>" = “TERRA: SUA LINDA!” 
+    "<p>"  = “Experimente a mudança de paradigma de conhecer o nosso planeta azul de um novo ponto de vista.”
+    "<a>"  = “Leia depoimentos.” (O hyperlink deve apontar para (#) )
 
 ● RODAPÉ:
     Para o rodapé nós vamos ter um <p>, um <smmall> e um <a> com os respectivos textos onde o small tag deve ter a classe “creditos”.
