@@ -1,5 +1,5 @@
 function radioSelecionado(){
-    var res = '';
+    var res = "";
     const itens = document.getElementsByName('genero');
     for (var i = 0; i < itens.length; i++) {
         if (itens[i].checked){
@@ -10,7 +10,8 @@ function radioSelecionado(){
     return res;
 }
 
-function verificar() {
+const verificacao = document.getElementById("btnEnviarId")
+verificacao.addEventListener('click', () =>{
     var res = radioSelecionado();
 
     var nome = document.getElementById("nmSobrenomeId")
@@ -25,8 +26,8 @@ function verificar() {
     }else if (email.value == ""){
         alert("E-mail não informado")
     }else if(cpf.value == ""){
-        alert("CPF não informado")
-    }else if (res === '') {
+        alert("CPF ano informado")
+    }else if (res == "") {
         alert('Nenhum gênero selecionado')
     }else if(nascimento.value == ""){
         alert("Data de nascimento não informado")
@@ -36,7 +37,5 @@ function verificar() {
         alert("Dados cadastrados com sucesso!")
         link.href = "./index.html";
     }
-}
 
-
-
+})
