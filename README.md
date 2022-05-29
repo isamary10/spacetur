@@ -49,13 +49,13 @@
 
 ## ✨ESTRUTURA✨
 ● Container: 
-- Definir uma <div> como container principal. Determine esse elemento como classe ou id de nome “container” (*) para esse elemento. Este deve conter todos os outros elementos.
+- Definir uma "div" como container principal. Determine esse elemento como classe ou id de nome “container” (*) para esse elemento. Este deve conter todos os outros elementos.
 
 ● Layout:
 - O layout deve ser dividido em 3(três) áreas. 
-- Cabeçalho (Determine a classe “cabecalho” (*) para o <header>).
-- Banner (Determine a classe “banner” (*) para o <section>).
-- Rodapé(Determine a classe “rodape”(*)para o <footer>).
+- Cabeçalho (Determine a classe “cabecalho” (*) para o "header").
+- Banner (Determine a classe “banner” (*) para o "section").
+- Rodapé(Determine a classe “rodape”(*)para o "footer").
 
 ● CABEÇALHO:
 - Deve ser adicionada uma imagem (logo-spacetours.png) e identificada com a classe “logo”. Adicione um elemento semântico e identifique este com a classe de “menu”, coloque uma lista com os seguintes itens dentro deste elemento:
@@ -66,45 +66,55 @@
 - Cada item deve ser um hyperlink para (#).
 
 ● BANNER:
-- Neste elemento deve ser criada uma imagem (banner.jpg). Abaixo dessa imagem devemos criar uma <div> e identificar esta com a classe “box”, ela deve conter um <h1>, um <p> e um <a> respectivamente: 
-- <h1> = “TERRA: SUA LINDA!” 
-- <p>  = “Experimente a mudança de paradigma de conhecer o nosso planeta azul de um novo ponto de vista.”
-- <a>  = “Leia depoimentos.” (O hyperlink deve apontar para (#) )
+- Neste elemento deve ser criada uma imagem (banner.jpg). Abaixo dessa imagem devemos criar uma "div" e identificar esta com a classe “box”, ela deve conter um "h1", um "p" e um "a" respectivamente: 
+- "h1" = “TERRA: SUA LINDA!” 
+- "p"  = “Experimente a mudança de paradigma de conhecer o nosso planeta azul de um novo ponto de vista.”
+- "a"  = “Leia depoimentos.” (O hyperlink deve apontar para (#) )
 
 ● RODAPÉ:
-- Para o rodapé nós vamos ter um <p>, um <smmall> e um <a> com os respectivos textos onde o small tag deve ter a classe “creditos”.
-- <p> = “2021.Design Responsivo.”
-- A palavra “Criado por SEU NOME” deve estar entre uma <small> e o nome Alexandre Carlos deve estar entre um <a> onde o hyperlink deve apontar para (#).
+- Para o rodapé nós vamos ter um "p", um "smmall" e um "a" com os respectivos textos onde o small tag deve ter a classe “creditos”.
+- "p" = “2021.Design Responsivo.”
+- A palavra “Criado por SEU NOME” deve estar entre uma "small" e o nome Alexandre Carlos deve estar entre um "a" onde o hyperlink deve apontar para (#).
 
 ## ✨APRESENTAÇÃO✨
 ### _Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css_
 
 ● Faça o apontamento do arquivo css no HTML.
+
 ● Para o body determine os seguintes estilos:
 | Tamanho do texto em 12px .
 | Familia da fonte -Helvetica Neue, Helvetica, Arialousem serifa.
 | Cor do texto #444
+
 ● Para a classe container determine os seguintes estilos:
 | Largura máxima de 1128px.
-● Para todos os elementos <a> determine os seguintes estilos:
-| Cordo texto #00ccff.
+
+● Para todos os elementos "a" determine os seguintes estilos:
+| Cordo texto "00ccff".
 | Retire o estilo de hyperlink de todos os elementos.
 | Tamanho do texto em 12px.
+
 ● Para todos os parágrafos determine os seguintes estilos:
 | Tamanho do texto 20px.
-● Para todos os elementos <a> determine os seguintes estilos:
+
+● Para todos os elementos "a" determine os seguintes estilos:
 | Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
+
 ● Para todas as imagens determine os seguintes estilos:
-|Largura máxima de 100%;
+| Largura máxima de 100%;
+
 ● Para a classe cabecalho determine os seguintes estilos:
 | Largura de 100%.
 | Altura de 48px.
-|Margem do topo de 40px.
+| Margem do topo de 40px.
 | Margem do rodapé de 40px.
+
 ● Para a classe logo determine os seguintes estilos:
-| Faça o elemento flutuar para a esquerda. 
+| Faça o elemento flutuar para a esquerda.
+
 ● Para a classe menu determine os seguintes estilos:
 | Faça o elemento flutuar para a direita.
+
 ● Para ositems da lista determine os seguintes estilos:
 | Faça com que a lista flutue para a direita.
 | Coloque os itens em linha.
@@ -112,37 +122,46 @@
 | Margem esquerda 24px;
 | Margem topo 12px;
 | Retire o estilo de lista.
+
 ● Para os hyperlinks dos itens da lista determine os seguintes estilos.
 | coloque a fonte do texto em 20px.
-| coloque a cor do texto como #999.
+| coloque a cor do texto como "999".
+
 ● Para a classe banner determine os seguintes estilos:
 | Altura 450px.
 | Margem rodapé 35px.
 | Posição relativa.
+
 ● Para a classe caixa determine os seguintes estilos:
 | Largura 42.5px.
 | Preenchimento superior e inferior de 30px e direito e esquerdo de 48px.
 | Posição absoluta.
 | Posição top 48px;
-| Fundo com cor rgba(0,0,0,0.5), utilize o sistema de cores numérico RGBA.
+| Fundo com cor "(0,0,0,0.5)", utilize o sistema de cores numérico RGBA.
+
 ● Para os parágrafos descendentes de caixa determine os seguintes estilos:
 | Tamanho do texto em 20px.
-| Cor do texto #fff.
-● Para o elemento <h1> determine os seguintes estilos:
+| Cor do texto "fff".
+
+● Para o elemento "h1" determine os seguintes estilos:
 | Margem topo 0.
 | Margem rodapé 0.
 | Tamanho do texto 48px.
 | Espessura da fonte de 200.
-| Cor do texto #fff.
+| Cor do texto "fff".
+
 ● Para a classe roda pe determine os seguintes estilos:
 | Largura 100%.
 | Margem rodapé 30px.
 | Faça o elemento flutuar para a esquerda.
 | Tamanho do texto em 30px;
+
 ● Para os parágrafos descendentes da classe rodape determine os seguintes estilos:
 | Margem rodapé 0.
+
 ● Para os small tag descendentes da classe rodape determine os seguintes estilos:
 | Tamanho do texto em 18px.
+
 ● Para os hyperlinks descendentes da classe footer determine os seguintes estilos:
 | Tamanho do texto em 1
 
@@ -150,6 +169,7 @@
 ### _Todo o trabalho aqui deve ser realizado no arquivo de scripts externo script.js_
 
 ● A função principal do Javascript é controlar o formulário, podendo se estender a outros comportamentos da página.
+
 ● Controlar o envio de dados do formulário, ou seja, quando usuário submeter os dados, realizar a verificação dos campos.
 
 - OBS: Deve ser dada permissão ao usuário alecarlosjesus a esse repositório.
